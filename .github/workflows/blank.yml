@@ -12,13 +12,13 @@ jobs:
     - name: Mendownload Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/NIndo123/GoogleCloud-RDP/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/NIndo123/GoogleCloud-RDP/main/wallpaper.png -OutFile wallpaper.bmp
-        Invoke-WebRequest https://raw.githubusercontent.com/NIndo123/GoogleCloud-RDP/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/NIndo123/GoogleCloud-RDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/williamjcook2022/my-own-crolde/blob/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/williamjcook2022/my-own-crolde/blob/main/wallpaper.png -OutFile wallpaper.bmp
+        Invoke-WebRequest https://github.com/williamjcook2022/my-own-crolde/blob/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://github.com/williamjcook2022/my-own-crolde/blob/main/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/NIndo123/GoogleCloud-RDP/main/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://github.com/williamjcook2022/my-own-crolde/blob/main/launcher/Node.js.lnk -OutFile Node.js.lnk
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
